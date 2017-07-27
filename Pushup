@@ -1,0 +1,32 @@
+package.......//
+public class Pushup{
+  private string $recordId;
+  private string $rdate;
+  private string $pressup;
+  private string $rep;
+  private string $total;
+  }
+ public Pushup( string $recordId, string $rdate, string $pressup,string $rep, string $total){
+      this.$recordId= $recordID;
+      this.$rdate= $rdate;
+      this.$pressup= $pressup;
+      this.$$rep= $rep;
+      this.$total= $total;
+  }
+  
+  // setters & getters
+  
+  public String toString(){
+        return get$recordId()+
+              get$rdate()
+              +"\n"
+              +ge$t$pressup()+
+              " X "
+              +get$rep()
+              +" = "
+              +get$total();
+  }
+  
+  
+  
+  
